@@ -7,7 +7,6 @@ public class Plesac extends Clan {
     
     public Plesac(int id, String ime, String prezime) {
         super(id, ime, prezime);
-        System.out.println("");
     }
 
     public Plesac(int id, String ime, String prezime, String brTel) {
