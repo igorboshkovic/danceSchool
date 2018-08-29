@@ -11,6 +11,7 @@ public class Grupa {
     private Instruktor zenskiInstruktor;
     private String facebookLink;
     private ArrayList<Plesac> clanoviGrupe;
+    private ArrayList<RasporedTermina> terminiCasova;
 
     public Grupa(String nazivGrupe, Kurs kurs, Instruktor muskiInstruktor, Instruktor zenskiInstruktor) {
         this.nazivGrupe = nazivGrupe;

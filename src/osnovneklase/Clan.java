@@ -101,4 +101,12 @@ public class Clan {
     public void setDatumDolaska(LocalDate datumDolaska) {
         this.datumDolaska = datumDolaska;
     }
+
+    @Override
+    public String toString() {
+        return "Clan{" + "id=" + id + ", ime=" + ime + ", prezime=" + prezime 
+                + ", brTel=" + brTel + ", facebookNalog=" + facebookNalog 
+                + ", email=" + email + ", tipClana=" + tipClana + ", datumDolaska=" + datumDolaska + '}';
+    }
+    
 }
