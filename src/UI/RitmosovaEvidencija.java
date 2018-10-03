@@ -1,5 +1,5 @@
 
-package ritmosovaevidencija;
+package UI;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -11,7 +11,7 @@ public class RitmosovaEvidencija extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("ClanForma.fxml"));
         
         Scene scene = new Scene(root);
         

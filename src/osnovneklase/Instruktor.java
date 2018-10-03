@@ -8,16 +8,16 @@ public class Instruktor extends Clan{
     
     private double koeficijent;
     
-    public Instruktor(int id, String ime, String prezime) {
-        super(id, ime, prezime);
+    public Instruktor(int id, String ime) {
+        super(ime);
     }
 
-    public Instruktor(int id, String ime, String prezime, String brTel) {
-        super(id, ime, prezime, brTel);
+    public Instruktor(int id, String ime, String brTel) {
+        super(ime, brTel);
     }
 
-    public Instruktor(int id, String ime, String prezime, String brTel, String facebookNalog, String email, LocalDate datumDolaska) {
-        super(id, ime, prezime, brTel, facebookNalog, email, TipClana.INSTRUKTOR, datumDolaska);
+    public Instruktor(int id, String ime, String brTel, String facebookNalog, String email, LocalDate datumDolaska) {
+        super(ime, brTel, facebookNalog, email, TipClana.INSTRUKTOR, datumDolaska);
     }
 
     public double getKoeficijent() {
